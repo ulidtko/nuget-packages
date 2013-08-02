@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>sublime</id>
+    <title>Sublime Text</title>
+    <version>2.0.2</version>
+    <authors>Jon Skinner et al</authors>
+    <owners>Maxim Ivanov</owners>
+    <summary>The Sublime Text 2 editor</summary>
+    <description>Sublime Text is a sophisticated text editor for code, markup and prose. You'll love the slick user interface, extraordinary features and amazing performance.</description>
+    <projectUrl>http://www.sublimetext.com/2</projectUrl>
+    <tags>sublime editor text code sublime2</tags>
+    <copyright>Sublime HQ Pty Ltd</copyright>
+    <licenseUrl>http://www.sublimetext.com/eula</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.github.com/ulidtko/nuget-packages/master/sublime/sublime_text_icon_2181.png</iconUrl>
+    <releaseNotes>Version 2.0.2
+Release Date: 8 July 2013
+• Sublime Text 3 beta is now available from http://www.sublimetext.com/3
+• Removed expiry date
+• Backported various fixes from Sublime Text 3
+• Improved minimap click behavior. The old behavior is available via the minimap_scroll_to_clicked_text setting
+• Added copy_with_empty_selection setting, to control the behavior of the copy and cut commands when no text is selected
+    </releaseNotes>
+  </metadata>
+  <files>
+    <!--<file src="tools\**" target="tools" />-->
+    <file src="tools\chocolateyInstall.ps1" target="tools\chocolateyInstall.ps1" />
+    <file src="sublime_text_icon_2181.png" target="sublime_text.png" />
+  </files>
+</package>
